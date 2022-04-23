@@ -1,0 +1,49 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color-theme-light: #212121;
+  --secondary-text-color-theme-light: #757575;
+  --text-and-background-color: #ffffff;
+  --accent-collor: #2196f3;
+  --icon-color: #afb1b8;
+  --background-icon-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  background: var(--text-and-background-color);
+  color: var(--primary-text-color-theme-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
