@@ -16,3 +16,26 @@
 .section-page>.section-img:last-child {
     margin: 0;
 }
+
+.section-picture-name {
+    position: relative;
+}
+
+.picture-name {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-and-background-color);
+    background: rgba(47, 48, 58, 0.8);
+}
