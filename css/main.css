@@ -550,7 +550,7 @@ img {
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
-  background-image: url("/images/svg/icon-check.svg");
+  background-image: url("../images/svg/icon-check.svg");
   border: var(--accent-collor);
 }
 
