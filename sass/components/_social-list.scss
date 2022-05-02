@@ -6,6 +6,11 @@
 .social-network-item {
     fill: var(--icon-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .social-network-list:hover &,
+    .social-network-list:focus & {
+        fill: var(--text-and-background-color);
+    }
 }
 
 .social-network-list {
@@ -17,22 +22,20 @@
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover,
+    &:focus {
+        background-color: var(--accent-collor);
+    }
 }
 
 .social-network {
     margin-right: 10px;
+
+    &:last-child {
+        margin: 0px;
+    }
 }
 
-.social-network:last-child {
-    margin: 0px;
-}
 
-.social-network-list:hover,
-.social-network-list:focus {
-    background-color: var(--accent-collor);
-}
 
-.social-network-list:hover .social-network-item,
-.social-network-list:focus .social-network-item {
-    fill: var(--text-and-background-color);
-}
+
