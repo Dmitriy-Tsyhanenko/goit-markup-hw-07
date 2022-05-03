@@ -1,4 +1,4 @@
-.contact {
+.contact-list__address {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -13,7 +13,7 @@
     }
 }
 
-.сontact-information {
+.сontact-list__link {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -42,6 +42,10 @@
     margin-right: 0;
 }
 
-.contact-list-item {
+.contact-list__item {
     margin-bottom: 9px;
+
+    &:last-child {
+        margin: 0;
+    }
 }

@@ -1,4 +1,4 @@
-.button-list {
+.portfolio-button__item {
     font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -32,7 +32,7 @@
     margin-bottom: 50px;
 }
 
-.portfolio-button-list {
+.portfolio-button__list {
     margin-right: 8px;
 
     &:last-child {

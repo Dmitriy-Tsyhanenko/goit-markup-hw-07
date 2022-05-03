@@ -1,4 +1,4 @@
-.caption {
+.text-list__subtitle {
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 10px;
@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 
-.text {
+.text-list__paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     margin-right: -30px;
 
-    &>.list-item {
+    &>.text-list__item {
         flex-basis: calc(100% / 4 - 30px);
         margin-right: 30px;
 

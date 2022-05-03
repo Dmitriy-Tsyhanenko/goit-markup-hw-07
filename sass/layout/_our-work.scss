@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     margin-right: -30px;
 
-    &>.section-img {
+    &>.section-page__img {
         flex-basis: calc(100% / 3 - 30px);
         margin-right: 30px;
 
@@ -17,11 +17,11 @@
     }
 }
 
-.section-picture-name {
+.application-list {
     position: relative;
 }
 
-.picture-name {
+.application-list__item {
     position: absolute;
     content: '';
     bottom: 0;

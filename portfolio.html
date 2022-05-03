@@ -25,37 +25,31 @@
     <!-- Шапка сайта -->
     <header class="header header-border">
       <div class="container page-nav">
-        <a class="link logo" href="./" lang="en">Web<span class="logo-studio">Studio</span></a>
+        <a class="link logo" href="./" lang="en">Web<span class="logo__header">Studio</span></a>
         <nav class="navigation">
           <ul class="nav-list list">
-            <li class="nav-list-item">
-              <a class="navigation-contact navigation-contakt-list link" href="index.html"
-                >Студия</a
-              >
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="index.html">Студия</a>
             </li>
-            <li class="nav-list-item">
-              <a
-                class="navigation-contact navigation-contakt-list link active-page"
-                href="portfolio.html"
-                >Портфолио</a
-              >
+            <li class="nav-list__item">
+              <a class="nav-list__link link active-page" href="portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-list-item">
-              <a class="navigation-contact navigation-contakt-list link" href="">Контакты</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="nav-list list">
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="mailto:info@devstudio.com">
-              <svg class="social-net-item social-net-list" width="16" height="12">
+          <li class="nav-list__item">
+            <a class="nav-list__link link" href="mailto:info@devstudio.com">
+              <svg class="nav-list-svg" width="16" height="12">
                 <use href="./images/svg/sprite.svg#icon-envelope"></use></svg
               >info@devstudio.com
             </a>
           </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="tel:+380961111111">
-              <svg class="social-net-item" width="10" height="16">
+          <li class="nav-list__item">
+            <a class="nav-list__link link" href="tel:+380961111111">
+              <svg class="nav-list-svg" width="10" height="16">
                 <use href="./images/svg/sprite.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -69,26 +63,26 @@
           <h1 class="visually-hidden">Примеры работ</h1>
           <!--кнопки-->
           <ul class="list portfolio-button">
-            <li class="portfolio-button-list">
-              <button class="button-list" type="button">Все</button>
+            <li class="portfolio-button__list">
+              <button class="portfolio-button__item" type="button">Все</button>
             </li>
-            <li class="portfolio-button-list">
-              <button class="button-list" type="button">Веб-сайты</button>
+            <li class="portfolio-button__list">
+              <button class="portfolio-button__item"" type="button">Веб-сайты</button>
             </li>
-            <li class="portfolio-button-list">
-              <button class="button-list" type="button">Приложения</button>
+            <li class="portfolio-button__list">
+              <button class="portfolio-button__item"" type="button">Приложения</button>
             </li>
-            <li class="portfolio-button-list">
-              <button class="button-list" type="button">Дизайн</button>
+            <li class="portfolio-button__list">
+              <button class="portfolio-button__item"" type="button">Дизайн</button>
             </li>
-            <li class="portfolio-button-list">
-              <button class="button-list" type="button">Маркетинг</button>
+            <li class="portfolio-button__list">
+              <button class="portfolio-button__item"" type="button">Маркетинг</button>
             </li>
           </ul>
           <!--Примеры работ-->
-          <ul class="list examples">
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+          <ul class="list example-list">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/technoquack.jpg"
@@ -108,8 +102,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/orlean.jpg"
@@ -129,8 +123,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/seafood.jpg"
@@ -150,8 +144,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img src="./images/portfolio/prime.jpg" alt="наушники" width="370" height="294" />
                   <p class="overlay">
@@ -166,8 +160,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/boxes.jpg"
@@ -187,8 +181,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/borders.jpg"
@@ -208,8 +202,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/limited.jpg"
@@ -229,8 +223,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img src="./images/portfolio/lab.jpg" alt="бирка" width="370" height="294" />
                   <p class="overlay">
@@ -245,8 +239,8 @@
                 </div>
               </a>
             </li>
-            <li class="example-element-works">
-              <a class="link example-element-style element-img-overlay" href="./">
+            <li class="example-list__element">
+              <a class="link example-list__link example-list__overlay" href="./">
                 <div class="example-element-works-img">
                   <img
                     src="./images/portfolio/business.jpg"
@@ -275,22 +269,22 @@
       <div class="container footer-icon">
         <div class="footer-icon-list">
           <a class="link logo footer-link" href="/" lang="en"
-            >Web<span class="footer-logo">Studio</span></a
+            >Web<span class="logo__footer">Studio</span></a
           >
           <address class="contact-section">
             <ul class="list contact-list">
-              <li class="contact-list-item">
-                <a class="contact link" href="г.Киев,пр-т-Леси-Украинки,26"
+              <li class="contact-list__item">
+                <a class="contact-list__address link" href="г.Киев,пр-т-Леси-Украинки,26"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="contact-list-item">
-                <a class="сontact-information link" href="mailto:info@devstudio.com"
+              <li class="contact-list__item">
+                <a class="сontact-list__link link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-number">
-                <a class="сontact-information link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="contact-list__item">
+                <a class="сontact-list__link link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -298,13 +292,13 @@
         <div class="footer-ikon-link">
           <ul class="networks-address">
             <li class="list network-address-list">
-              <h2 class="list-address-of-networks">Присоеденяйтесь</h2>
+              <h2 class="network-address-item">Присоеденяйтесь</h2>
             </li>
           </ul>
           <ul class="network-list list">
-            <li class="social-network-footer">
-              <a href="" class="social-list-footer">
-                <svg class="footer-network-item" width="20" height="20">
+            <li class="network-list__footer">
+              <a href="" class="network-list__footer-link">
+                <svg class="network-list__footer-svg" width="20" height="20">
                   <use
                     href="./images/svg/sprite.svg#icon-instagram"
                     class="network-list-link"
@@ -312,23 +306,23 @@
                 </svg>
               </a>
             </li>
-            <li class="social-network-footer">
-              <a href="" class="social-list-footer">
-                <svg class="footer-network-item" width="20" height="20">
+            <li class="network-list__footer">
+              <a href="" class="network-list__footer-link">
+                <svg class="network-list__footer-svg" width="20" height="20">
                   <use href="./images/svg/sprite.svg#icon-twitter" class="network-list-link"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-network-footer">
-              <a href="" class="social-list-footer">
-                <svg class="footer-network-item" width="20" height="20">
+            <li class="network-list__footer">
+              <a href="" class="network-list__footer-link">
+                <svg class="network-list__footer-svg" width="20" height="20">
                   <use href="./images/svg/sprite.svg#icon-facebook" class="network-list-link"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-network-footer">
-              <a href="" class="social-list-footer">
-                <svg class="footer-network-item" width="20" height="20">
+            <li class="network-list__footer">
+              <a href="" class="network-list__footer-link">
+                <svg class="network-list__footer-svg" width="20" height="20">
                   <use href="./images/svg/sprite.svg#icon-linkedin" class="network-list-link"></use>
                 </svg>
               </a>
