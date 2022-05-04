@@ -17,12 +17,13 @@
         content: '';
         margin-right: 8px;
     }
-    .contact-form-checkbox:checked+&::before {
+    
+    .contact-form-checkbox:checked + &::before {
         background-image: url("../images/svg/icon-check.svg");
         border: var(--accent-collor);
     }
     
-    .contact-form-checkbox:focus+&::before {
+    .contact-form-checkbox:focus + &::before {
         outline: 1px solid var(--accent-collor);
     }
 }
